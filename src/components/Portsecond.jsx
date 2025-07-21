@@ -23,7 +23,7 @@ const Portsecond = () => {
               </div>
               <div className="timeline-start mb-10 md:text-end">
                 <time className="font-mono italic">2019</time>
-                <div className="text-lg font-black">Secondary Examination</div>
+                <div className="text-lg">Secondary Examination</div>
                 Passed Secondary Examination from Nava Nalanda High School with 82%.This result marks an important milestone in my academic journey, 
                 and I am grateful to my teachers, 
                 family, and friends who supported and guided me throughout. I look forward to continuing my studies with the 
@@ -49,7 +49,7 @@ const Portsecond = () => {
               </div>
               <div className="timeline-end md:mb-10">
                 <time className="font-mono italic">2021</time>
-                <div className="text-lg font-black ">Higher Secondary Examination</div>
+                <div className="text-lg ">Higher Secondary Examination</div>
                 I completed my Higher Secondary from Nava Nalanda High School with 79%. It was a valuable learning phase where I focused on building my 
                 skills and knowledge, and I’m now looking forward to exploring new opportunities ahead.
                 <div className="sm:py-0 py-4"></div>
@@ -75,7 +75,7 @@ const Portsecond = () => {
               </div>
               <div className="timeline-start mb-10 md:text-end">
                 <time className="font-mono italic">2023-2027</time>
-                <div className="text-lg font-black">Graduation</div>
+                <div className="text-lg">Graduation</div>
                 Currently pursuing my BCA (Bachelor of Computer Applications) at Techno Main Salt Lake, started in 2023 and expected to complete in 2027. 
                 Excited to keep learning and building my skills in the tech field.
               </div>
