@@ -29,7 +29,7 @@ const Portfirst = () => {
         <div className="bg-gray-800 sm:flex sm:w-5xl sm:h-7/12 sm:my-45 sm:justify-start grid grid-rows-2 w-90 h-8/12 my-40  justify-center shadow-2xl rounded-4xl">
           <div className="sm:flex sm:w-sm sm:h-full sm:m-0 sm:rounded-tl-4xl sm:rounded-bl-4xl justify-items-center">
             <div className="sm:flex sm:w-sm sm:h-full sm:m-0 sm:rounded-none flex w-50 h-50 my-10 rounded-full overflow-hidden">
-              <img src="./src/assets/Photo.jpg" className="w-full h-full object-cover sm:rounded-tl-4xl sm:rounded-bl-4xl" />
+              <img src="src\assets\Photo.jpg" className="w-full h-full object-cover sm:rounded-tl-4xl sm:rounded-bl-4xl" />
             </div>
           </div>
           <div className="sm:flex sm:flex-col sm:w-lg sm:h-9/12 sm:m-17 sm:justify-center sm:text-start">
