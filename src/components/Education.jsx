@@ -37,7 +37,7 @@ const Education = () => {
     }, []);
 
     return (
-        <div className="flex h-screen w-screen items-center justify-center overflow-x-hidden bg-gradient-to-br from-[#181c2b] via-[#23293a] to-[#3730a3]">
+        <div id="education" className="flex h-screen w-screen items-center justify-center overflow-x-hidden bg-gradient-to-br from-[#181c2b] via-[#23293a] to-[#3730a3]">
             <div
                 ref={sectionRef}
                 className="relative bg-gradient-to-br from-[#23293a]/90 via-[#1f2937]/90 to-[#3730a3]/90 w-full sm:w-5/6 max-w-5xl mx-auto rounded-[32px] border border-indigo-700/30 shadow-[0_12px_48px_0_rgba(60,0,120,0.35)] shadow-indigo-900/70 backdrop-blur-xl overflow-hidden h-[800px] sm:h-auto py-10 px-4 sm:px-16 transition-all duration-500"

@@ -1,8 +1,20 @@
 import React from "react";
 
 const Home = () => {
+    
+    const handleViewWork = (e) => {
+        e.preventDefault();
+        const el = document.getElementById("projects");
+        if (el) {
+            window.scrollTo({
+                top: el.offsetTop - 60,
+                behavior: "smooth"
+            });
+        }
+    };
+
     return (
-        <div className="flex min-h-screen w-screen items-center justify-center overflow-x-hidden bg-gradient-to-br from-[#181c2b] via-[#23293a] to-[#3730a3]">
+        <div id="home" className="flex min-h-screen w-screen items-center justify-center overflow-x-hidden bg-gradient-to-br from-[#181c2b] via-[#23293a] to-[#3730a3]">
             <div className="relative bg-gradient-to-br from-[#23293a]/90 via-[#1f2937]/90 to-[#3730a3]/90 w-11/12 sm:w-5/6 max-w-6xl mx-auto rounded-[40px] border border-indigo-700/30 shadow-[0_12px_48px_0_rgba(60,0,120,0.35)] shadow-indigo-900/70 backdrop-blur-xl overflow-hidden h-[500px] sm:h-[650px] flex items-center transition-all duration-500">
                 
                 <div className="absolute inset-0 pointer-events-none z-0">
@@ -42,6 +54,7 @@ const Home = () => {
                         </p>
                         <a
                             href="#projects"
+                            onClick={handleViewWork}
                             className="px-5 sm:px-8 py-2.5 sm:py-4 rounded-xl sm:rounded-2xl bg-gradient-to-r from-indigo-500 via-purple-500 to-indigo-600 hover:from-indigo-600 hover:to-purple-600 text-white text-base sm:text-lg font-semibold shadow-2xl transition-all duration-300 animate-bounce"
                         >
                             View My Work
