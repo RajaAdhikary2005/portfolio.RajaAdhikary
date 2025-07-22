@@ -1,15 +1,20 @@
-import Portfirst from "./components/Portfirst"
+import Home from "./components/Home"
 import Portsecond from "./components/Portsecond"
+import Projects from "./components/Projects"
+import Skills from "./components/Skills"
+import Contact from "./components/Contact"
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <>
-      <Portfirst />
+    <div className="overflow-x-hidden">
+      <Home />
+      <Navbar />
       <Portsecond />
-      <div className="flex flex-wrap h-screen w-screen bg-green-400"></div>
-      <div className="flex flex-wrap h-screen w-screen bg-blue-400"></div>
-      <div className="flex flex-wrap h-screen w-screen bg-pink-400"></div>
-    </>
+      <Projects />
+      <Skills />
+      <Contact />
+    </div>
   )
 }
 
