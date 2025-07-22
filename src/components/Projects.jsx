@@ -59,7 +59,12 @@ const Projects = () => {
                                             </span>
                                         ))}
                                     </div>
-                                    <a href={project.link} target="_blank" className="inline-block px-4 py-2 rounded-xl bg-gradient-to-r from-indigo-500 via-purple-500 to-indigo-600 text-white font-semibold shadow-lg hover:scale-105 transition-all duration-200">
+                                    <a
+                                        href={project.link}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="inline-block px-4 py-2 rounded-xl bg-gradient-to-r from-indigo-500 via-purple-500 to-indigo-600 text-white font-semibold shadow-lg hover:scale-105 transition-all duration-200"
+                                    >
                                         View Project →
                                     </a>
                                 </div>
