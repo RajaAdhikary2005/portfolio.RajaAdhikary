@@ -11,21 +11,21 @@ const projects = [
         title: "Keyboard Tester",
         desc: "A simple web-based keyboard tester to check if your keys are working properly.",
         tech: ["HTML", "CSS", "JAVASCRIPT"],
-        link: "#"
+        link: "https://keyboardtesterwebsite.vercel.app"
     },
     {
         img: "/projectimg/Youtube.png",
         title: "Youtube Clone",
         desc: "A basic YouTube clone project for streaming and browsing videos with a familiar interface.",
         tech: ["HTML", "CSS", "JAVASCRIPT"],
-        link: "#"
+        link: "https://youtubeprojectt.vercel.app"
     },
     {
         img: "/projectimg/Rock-Paper-Scissor.png",
         title: "Rock-Paper-Scissors Game",
         desc: "A simple Rock Paper Scissors game to play against the computer for fun.",
         tech: ["HTML", "CSS", "JAVASCRIPT"],
-        link: "#"
+        link: "https://rockpaperscissorrgame.vercel.app"
     }
 ];
 
