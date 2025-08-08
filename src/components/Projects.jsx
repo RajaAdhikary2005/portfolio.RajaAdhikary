@@ -1,3 +1,5 @@
+import React, { useState } from "react";
+
 const projects = [
     {
         img: "/projectimg/Portfolio.png",
@@ -26,10 +28,37 @@ const projects = [
         desc: "A simple Rock Paper Scissors game to play against the computer for fun.",
         tech: ["HTML", "CSS", "JAVASCRIPT"],
         link: "https://rockpaperscissorrgame.vercel.app"
+    },
+    {
+        img: "/projectimg/StockPrice.png", 
+        title: "Stock Price Checker",
+        desc: "A web application to track stock prices in real-time.",
+        tech: ["REACT", "TAILWIND", "API"],
+        link: "https://stocksprice.vercel.app"
+    },
+    {
+        img: "/projectimg/Youtube.png",
+        title: "",
+        desc: "",
+        tech: [],
+        link: ""
+    },
+    {
+        img: "/projectimg/Youtube.png",
+        title: "",
+        desc: "",
+        tech: [],
+        link: ""
     }
 ];
 
 const Projects = () => {
+    const [visibleCount, setVisibleCount] = useState(4);
+
+    const showMoreProjects = () => {
+        setVisibleCount((prev) => prev + 4);
+    };
+
     return (
         <div id="projects" className="min-h-screen w-screen flex items-center justify-center overflow-x-hidden bg-gradient-to-br from-[#181c2b] via-[#23293a] to-[#3730a3] py-16 px-4">
             <div className="relative bg-gradient-to-br from-[#23293a]/90 via-[#1f2937]/90 to-[#3730a3]/90 w-full sm:w-5/6 max-w-7xl mx-auto rounded-[32px] border border-indigo-700/30 shadow-[0_12px_48px_0_rgba(60,0,120,0.35)] shadow-indigo-900/70 backdrop-blur-xl overflow-hidden py-12 px-4 sm:px-12 transition-all duration-500">
@@ -42,9 +71,9 @@ const Projects = () => {
                         Projects
                     </h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                        {projects.map((project, idx) => (
+                        {projects.slice(0, visibleCount).map((project, idx) => (
                             <div
-                                key={project.title}
+                                key={project.title + idx}
                                 className="bg-gradient-to-br from-[#23293a]/80 via-[#3730a3]/80 to-[#6366f1]/70 rounded-2xl overflow-hidden shadow-2xl shadow-indigo-900/40 border border-indigo-700/20 backdrop-blur-lg transform transition-transform duration-300 hover:scale-105 animate-fade-in"
                                 style={{ animationDelay: `${0.2 + idx * 0.2}s` }}
                             >
@@ -59,18 +88,30 @@ const Projects = () => {
                                             </span>
                                         ))}
                                     </div>
-                                    <a
-                                        href={project.link}
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        className="inline-block px-4 py-2 rounded-xl bg-gradient-to-r from-indigo-500 via-purple-500 to-indigo-600 text-white font-semibold shadow-lg hover:scale-105 transition-all duration-200"
-                                    >
-                                        View Project →
-                                    </a>
+                                    {project.link && (
+                                        <a
+                                            href={project.link}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="inline-block px-4 py-2 rounded-xl bg-gradient-to-r from-indigo-500 via-purple-500 to-indigo-600 text-white font-semibold shadow-lg hover:scale-105 transition-all duration-200"
+                                        >
+                                            View Project →
+                                        </a>
+                                    )}
                                 </div>
                             </div>
                         ))}
                     </div>
+                    {visibleCount < projects.length && (
+                        <div className="flex justify-center mt-10">
+                            <button
+                                onClick={showMoreProjects}
+                                className="px-8 py-3 rounded-xl bg-gradient-to-r from-indigo-500 via-purple-500 to-indigo-600 text-white font-bold shadow-lg hover:scale-105 transition-all duration-200"
+                            >
+                                Show More
+                            </button>
+                        </div>
+                    )}
                 </div>
                 <style>
                     {`
