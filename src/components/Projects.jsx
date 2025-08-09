@@ -23,13 +23,6 @@ const projects = [
         link: "https://youtubeprojectt.vercel.app"
     },
     {
-        img: "/projectimg/Rock-Paper-Scissor.png",
-        title: "Rock-Paper-Scissors Game",
-        desc: "A simple Rock Paper Scissors game to play against the computer for fun.",
-        tech: ["HTML", "CSS", "JAVASCRIPT"],
-        link: "https://rockpaperscissorrgame.vercel.app"
-    },
-    {
         img: "/projectimg/StockPrice.png", 
         title: "Stock Price Checker",
         desc: "A web application to track stock prices in real-time.",
@@ -37,18 +30,18 @@ const projects = [
         link: "https://stocksprice.vercel.app"
     },
     {
-        img: "/projectimg/Youtube.png",
-        title: "",
-        desc: "",
-        tech: [],
-        link: ""
+        img: "/projectimg/Popitgame.png",
+        title: "Pop It Game",
+        desc: "A fun and interactive pop-it game built with HTML, CSS, and JavaScript.",
+        tech: ["React", "CSS"],
+        link: "https://poppitgame.vercel.app"
     },
     {
-        img: "/projectimg/Youtube.png",
-        title: "",
-        desc: "",
-        tech: [],
-        link: ""
+        img: "/projectimg/Rock-Paper-Scissor.png",
+        title: "Rock-Paper-Scissors Game",
+        desc: "A simple Rock Paper Scissors game to play against the computer for fun.",
+        tech: ["HTML", "CSS", "JAVASCRIPT"],
+        link: "https://rockpaperscissorrgame.vercel.app"
     }
 ];
 
