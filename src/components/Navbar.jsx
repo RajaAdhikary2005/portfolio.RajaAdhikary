@@ -85,7 +85,7 @@ const Navbar = () => {
                             ))}
                         </div>
                         <div className="flex items-center space-x-2">
-                            <span className="hidden sm:inline-block text-indigo-200 font-bold text-base tracking-wide drop-shadow-lg">Mriganka</span>
+                            <span className="hidden sm:inline-block text-indigo-200 font-bold text-base tracking-wide drop-shadow-lg">Raja</span>
                             <a
                                 href="#contact"
                                 onClick={handleContactClick}

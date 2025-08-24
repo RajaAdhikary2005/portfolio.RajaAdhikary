@@ -2,15 +2,15 @@ import React, { useRef, useEffect, useState } from "react";
 
 const timelineItems = [
     {
-        year: "2019",
+        year: "2021",
         title: "Secondary Examination",
-        desc: "Passed Secondary Examination from Nava Nalanda High School with 82%. This result marks an important milestone in my academic journey.",
+        desc: "Passed Secondary Examination from Gopal Nagar MSS  High School with 92.7%. This result marks an important milestone in my academic journey.",
         grad: "grad1"
     },
     {
-        year: "2021",
+        year: "2023",
         title: "Higher Secondary Examination",
-        desc: "I completed my Higher Secondary from Nava Nalanda High School with 79%. It was a valuable learning phase where I focused on building my skills and knowledge, and I’m now looking forward to exploring new opportunities ahead.",
+        desc: "I completed my Higher Secondary from Gopal Nagar MSS  High School with 93.3%. It was a valuable learning phase where I focused on building my skills and knowledge, and I’m now looking forward to exploring new opportunities ahead.",
         grad: "grad2"
     },
     {

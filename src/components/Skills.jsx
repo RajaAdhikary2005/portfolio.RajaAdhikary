@@ -5,9 +5,9 @@ const skills = [
     { name: "CSS", img: "/logos/css-3.png" },
     { name: "TAILWIND", img: "/logos/tailwind.png" },
     { name: "JAVASCRIPT", img: "/logos/javascript.png" },
-    { name: "REACT JS", img: "/logos/react.png" },
+    { name: "MERN STACK", img: "/logos/MERNSTACK.png" },
     { name: "GITHUB", img: "/logos/git.png" },
-    { name: "NODE JS", img: "/logos/node.png" },
+    { name: "JAVA", img: "/logos/JAVA.png" },
     { name: "PYTHON", img: "/logos/python.png" },
     { name: "C", img: "/logos/C.png" },
     { name: "MYSQL", img: "/logos/mysql.png" }
