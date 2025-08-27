@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 const projects = [
     {
-        img: "public/projectimg/Portfolio.png",
+        img: "public/projectimg/portfolio.png",
         title: "Portfolio Website",
         desc: "A responsive portfolio website built with React and Tailwind CSS.",
         tech: ["REACT", "TAILWIND"],
@@ -16,7 +16,7 @@ const projects = [
         link: "https://raja-key-board-tester.vercel.app/"
     },
     {
-        img: "public/projectimg/Youtube.png",
+        img: "public/projectimg/youtube.png",
         title: "Youtube Clone",
         desc: "A basic YouTube clone project for streaming and browsing videos with a familiar interface.",
         tech: ["HTML", "CSS", "JAVASCRIPT"],
