@@ -13,35 +13,41 @@ const projects = [
         title: "Keyboard Tester",
         desc: "A simple web-based keyboard tester to check if your keys are working properly.",
         tech: ["HTML", "CSS", "JAVASCRIPT"],
-        link: "https://keyboardtesterwebsite.vercel.app"
+        link: "https://raja-key-board-tester.vercel.app/"
     },
     {
         img: "/projectimg/Youtube.png",
         title: "Youtube Clone",
         desc: "A basic YouTube clone project for streaming and browsing videos with a familiar interface.",
         tech: ["HTML", "CSS", "JAVASCRIPT"],
-        link: "https://youtubeprojectt.vercel.app"
+        link: "https://youtube-clone-raja2005.vercel.app/"
     },
     {
         img: "/projectimg/StockPrice.png", 
         title: "Stock Price Checker",
         desc: "A web application to track stock prices in real-time.",
         tech: ["REACT", "TAILWIND", "API"],
-        link: "https://stocksprice.vercel.app"
+        link: "https://raja-stock-price-checker.vercel.app/"
     },
     {
         img: "/projectimg/Popitgame.png",
-        title: "Pop It Game",
-        desc: "A fun and interactive pop-it game built with HTML, CSS, and JavaScript.",
-        tech: ["React", "CSS"],
-        link: "https://poppitgame.vercel.app"
+        title: "Bridal-Parlour-Tutorial",
+        desc: "A simple and elegant bridal parlour tutorial website built using HTML, CSS, and JavaScript. This project demonstrates how to design a professional and responsive website layout for beauty and bridal services",
+        tech: ["HTML", "CSS", "JAVASCRIPT"],
+        link: "https://bridal-parlour-tutoria-raja.vercel.app/"
     },
     {
         img: "/projectimg/Rock-Paper-Scissor.png",
         title: "Rock-Paper-Scissors Game",
         desc: "A simple Rock Paper Scissors game to play against the computer for fun.",
         tech: ["HTML", "CSS", "JAVASCRIPT"],
-        link: "https://rockpaperscissorrgame.vercel.app"
+        link: "https://rock-paper-scissors-raja.vercel.app/"
+    },
+    {   img: "/projectimg/Popitgame.png",
+        title: "Amazon Clone",
+        desc: "A basic amazon clone.",
+        tech: ["HTML", "CSS", "JAVASCRIPT"],
+        link: "https://amazon-clone-raja.vercel.app/"
     }
 ];
 
