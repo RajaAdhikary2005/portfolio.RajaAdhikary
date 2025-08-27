@@ -168,7 +168,7 @@ const Contact = () => {
             </svg>
           </a>
           <a
-            href="https://github.com/Raja Adhikary"
+            href="https://github.com/RajaAdhikary2005"
             target="_blank"
             rel="noopener noreferrer"
             className="rounded-full bg-[#23293a] p-2 shadow hover:scale-110 transition"
