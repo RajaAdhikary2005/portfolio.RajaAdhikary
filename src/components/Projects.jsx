@@ -6,7 +6,7 @@ const projects = [
         title: "Portfolio Website",
         desc: "A responsive portfolio website built with React and Tailwind CSS.",
         tech: ["REACT", "TAILWIND"],
-        link: "https://raja-adhikary-portfolio.vercel.app"
+        link: "https://portfolio-raja-adhikary.vercel.app/"
     },
     {
         img: "/projectimg/Keyboard.png",
