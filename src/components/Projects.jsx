@@ -2,11 +2,11 @@ import React, { useState } from "react";
 
 const projects = [
     {
-        img: "/projectimg/Portfolio.png",
+        img: "/projectimg/portfolio.png",
         title: "Portfolio Website",
         desc: "A responsive portfolio website built with React and Tailwind CSS.",
         tech: ["REACT", "TAILWIND"],
-        link: "https://mriganka-guha-portfolio.vercel.app"
+        link: "https://raja-adhikary-portfolio.vercel.app"
     },
     {
         img: "/projectimg/Keyboard.png",
@@ -16,7 +16,7 @@ const projects = [
         link: "https://raja-key-board-tester.vercel.app/"
     },
     {
-        img: "/projectimg/Youtube.png",
+        img: "/projectimg/youtube.png",
         title: "Youtube Clone",
         desc: "A basic YouTube clone project for streaming and browsing videos with a familiar interface.",
         tech: ["HTML", "CSS", "JAVASCRIPT"],
@@ -30,7 +30,7 @@ const projects = [
         link: "https://raja-stock-price-checker.vercel.app/"
     },
     {
-        img: "/projectimg/Popitgame.png",
+        img: "/projectimg/bridal.png",
         title: "Bridal-Parlour-Tutorial",
         desc: "A simple and elegant bridal parlour tutorial website built using HTML, CSS, and JavaScript. This project demonstrates how to design a professional and responsive website layout for beauty and bridal services",
         tech: ["HTML", "CSS", "JAVASCRIPT"],
@@ -43,7 +43,7 @@ const projects = [
         tech: ["HTML", "CSS", "JAVASCRIPT"],
         link: "https://rock-paper-scissors-raja.vercel.app/"
     },
-    {   img: "/projectimg/Popitgame.png",
+    {   img: "/projectimg/amazon.png",
         title: "Amazon Clone",
         desc: "A basic amazon clone.",
         tech: ["HTML", "CSS", "JAVASCRIPT"],
