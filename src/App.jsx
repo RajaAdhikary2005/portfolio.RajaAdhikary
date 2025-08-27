@@ -1,7 +1,7 @@
 import Navbar from "./components/Navbar";
 import Home from "./components/Home"
 import Portsecond from "./components/Education"
-import Projects from "./components/Projects"
+import Projects from "./assets/Projects";
 import Skills from "./components/Skills"
 import Contact from "./components/Contact"
 
