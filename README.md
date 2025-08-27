@@ -5,7 +5,7 @@ Clean, responsive portfolio built with **Vite** to showcase projects, skills, ed
 ---
 
 ### 🔗 Live demo
-[![Visit Website](https://img.shields.io/badge/Visit%20Website-000?style=for-the-badge&logo=vercel&logoColor=white)](https://yourproject.vercel.app)  
+[![Visit Website](https://img.shields.io/badge/Visit%20Website-000?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-raja-adhikary.vercel.app/)  
 
 ---
 
@@ -20,4 +20,5 @@ Clean, responsive portfolio built with **Vite** to showcase projects, skills, ed
 Vite · JavaScript / TypeScript · HTML · CSS
 
 ---
+
 
